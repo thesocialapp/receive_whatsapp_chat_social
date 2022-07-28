@@ -30,7 +30,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.flutter.embedding.android.FlutterActivity;
+import io.flutter.embedding.android.FlutterFragmentActivity;
 import io.flutter.embedding.engine.FlutterEngine;
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.EventChannel;
@@ -44,7 +44,7 @@ import io.flutter.plugin.common.MethodChannel;
  * @version 1
  * @since 25/05/18
  */
-public class FlutterShareReceiverActivity extends FlutterActivity {
+public class FlutterShareReceiverActivity extends FlutterFragmentActivity {
 
     public static final String STREAM = "plugins.flutter.io/receiveshare";
 
